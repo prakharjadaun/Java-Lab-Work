@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+	<div class="container">
+		<form action="Calculator" method="post">
+			<table>
+				<tr>
+					<td>Enter the number 1 : </td>
+					<td><input type="text" name="num1"></td>
+				</tr>
+				<tr>
+					<td>Enter the number 2 : </td>
+					<td><input type="text" name="num2"></td>
+				</tr>
+				<tr>
+					<td>Select the operator : </td>
+					<td>
+						<select name="operator">
+							<option value="add">Addition</option>
+							<option value="sub">Subtraction</option>
+							<option value="divide">Division</option>
+							<option value="multiply">Multiplication</option>
+						</select>
+					</td>
+				</tr>
+				 <tr>
+                    <td></td>
+                    <td><button type ="submit">Submit</button></td>
+                </tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
